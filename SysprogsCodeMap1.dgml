@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="(&amp;at;&amp;lt;5348024557784226&amp;at;103503&amp;gt;prvAddCurrentTaskToDelayedList)" Category="CodeSchema_Method" Bounds="525.915199876454,218.048604941688,227.7,25.24" Description="prvAddCurrentTaskToDelayedList" Label="prvAddCurrentTaskToDelayedList" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="(HAL_GPIO_Init)" Category="CodeSchema_Method" Bounds="877.389724914897,46.1085713171362,118.796666666667,25.24" Description="HAL_GPIO_Init" Label="HAL_GPIO_Init" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="(HAL_InitTick)" Category="CodeSchema_Method" Bounds="1023.45404340993,243.349177474306,106.466666666667,25.24" Description="HAL_InitTick" Label="HAL_InitTick" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" UseManualLocation="True" />
+    <Node Id="(HAL_MspInit)" Category="CodeSchema_Method" Bounds="869.791135523127,169.51060251066,108.783333333333,25.24" Description="HAL_MspInit" Label="HAL_MspInit" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" UseManualLocation="True" />
+    <Node Id="(HAL_NVIC_SetPriorityGrouping)" Category="CodeSchema_Method" Bounds="1090.69681564646,157.110247690606,214.076666666667,25.24" Description="HAL_NVIC_SetPriorityGrouping" Label="HAL_NVIC_SetPriorityGrouping" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" UseManualLocation="True" />
+    <Node Id="(osKernelStart)" Category="CodeSchema_Method" Bounds="578.313701003214,50.7861979778011,112.673333333333,25.24" Description="osKernelStart" Label="osKernelStart" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="(osThreadCreate)" Category="CodeSchema_Method" Bounds="720.898244406927,46.1085713171361,126.49,25.24" Description="osThreadCreate" Label="osThreadCreate" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="(vTaskSuspendAll)" Category="CodeSchema_Method" Bounds="205.611666543121,206.894684777483,132.146666666667,25.24" Description="vTaskSuspendAll" Label="vTaskSuspendAll" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@1" Category="CodeSchema_Method" Bounds="438.030267669881,41.1746847774825,110.283333333333,25.24" Description="LED_Thread1" Label="LED_Thread1" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@10" Category="CodeSchema_Method" Bounds="367.758433209787,206.894684777483,128.156666666667,25.24" Description="xTaskResumeAll" Label="xTaskResumeAll" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@2" Category="CodeSchema_Method" Bounds="157.365322957563,41.2291456877728,110.283333333333,25.24" Description="LED_Thread2" Label="LED_Thread2" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@3" Category="CodeSchema_Method" Bounds="297.65153083703,41.2291451148749,110.283333333333,25.24" Description="LED_Thread3" Label="LED_Thread3" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@4" Category="CodeSchema_Method" Bounds="322.195147445174,262.134684777483,144.55,25.24" Description="vPortRaiseBASEPRI" Label="vPortRaiseBASEPRI" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@5" Category="CodeSchema_Method" Bounds="1026.18912415436,46.1086211235361,83.8433333333332,25.24" Description="HAL_Init" Label="HAL_Init" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@6" Category="CodeSchema_Method" Bounds="610.805505411106,-14.0653152225174,64.4633333333334,25.24" Description="main" Label="main" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@7" Category="CodeSchema_Method" Bounds="405.288388009741,96.4146847774826,81.31,25.24" Description="osDelay" Label="osDelay" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@8" Category="CodeSchema_Method" Bounds="496.745147445175,317.374684777482,115.476666666667,25.24" Description="uxListRemove" Label="uxListRemove" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+    <Node Id="@9" Category="CodeSchema_Method" Bounds="386.571721343074,151.654684777483,100.026666666667,25.24" Description="vTaskDelay" Label="vTaskDelay" Language="{f92a9961-f535-4f5c-a350-3c929d33c8f8}" />
+  </Nodes>
+  <Links>
+    <Link Source="@1" Target="@7" Category="CodeSchema_Calls" Bounds="462.581661594611,66.4146872711182,19.8005522322019,23.1593514962927" />
+    <Link Source="@10" Target="@4" Category="CodeSchema_Calls" Bounds="408.049471712242,232.134684777483,15.2506052397109,22.545348061418" />
+    <Link Source="@10" Target="@8" Category="CodeSchema_Calls" Bounds="445.846555949806,232.134684777483,87.9401444324244,79.2163672501463" />
+    <Link Source="@2" Target="@7" Category="CodeSchema_Calls" Bounds="265.440228950473,66.3628305619769,131.089580607326,30.9902371822029" />
+    <Link Source="@3" Target="@7" Category="CodeSchema_Calls" Bounds="374.095059537543,66.4691458892822,42.803297829433,25.3582167635327" />
+    <Link Source="@5" Target="(HAL_InitTick)" Category="CodeSchema_Calls" Bounds="1068.68989463907,71.3486186218262,7.06130182905554,163.008991195365" />
+    <Link Source="@5" Target="(HAL_MspInit)" Category="CodeSchema_Calls" Bounds="945.734424630847,71.3486186218262,107.657214690334,92.3039047597788" />
+    <Link Source="@5" Target="(HAL_NVIC_SetPriorityGrouping)" Category="CodeSchema_Calls" Bounds="1082.87678477927,71.3486186218262,93.2894745659255,79.9068535117108" />
+    <Link Source="@6" Target="(HAL_GPIO_Init)" Category="CodeSchema_Calls" Bounds="675.268806559245,5.15723306593175,194.404569801961,39.8231217706834" />
+    <Link Source="@6" Target="(osKernelStart)" Category="CodeSchema_Calls" Bounds="637.436727236657,11.1746846389771,3.96836477526415,30.6858420377283" />
+    <Link Source="@6" Target="(osThreadCreate)" Category="CodeSchema_Calls" Bounds="672.590205101879,11.1574187834815,73.6808231845122,31.4207619265975" />
+    <Link Source="@6" Target="@1" Category="CodeSchema_Calls" Bounds="535.854388548013,10.1588195718028,75.7009272237764,27.9032044227913" />
+    <Link Source="@6" Target="@2" Category="CodeSchema_Calls" Bounds="276.575332902457,2.69430793335751,334.230140323454,42.9263211510529" />
+    <Link Source="@6" Target="@3" Category="CodeSchema_Calls" Bounds="416.649629322517,4.69514888417266,194.155843903395,36.9886866172369" />
+    <Link Source="@6" Target="@5" Category="CodeSchema_Calls" Bounds="675.268806559245,3.11743801766963,342.009150557775,48.4152254175893" />
+    <Link Source="@7" Target="@9" Category="CodeSchema_Calls" Bounds="440.226327540562,121.654687042236,3.57907845012318,21.1264313078145" />
+    <Link Source="@9" Target="(&amp;at;&amp;lt;5348024557784226&amp;at;103503&amp;gt;prvAddCurrentTaskToDelayedList)" Category="CodeSchema_Calls" Bounds="475.205061425717,176.894681091309,117.385322417688,38.3584263635467" />
+    <Link Source="@9" Target="(vTaskSuspendAll)" Category="CodeSchema_Calls" Bounds="317.891567829984,176.894681091309,81.0208111212361,27.141228383781" />
+    <Link Source="@9" Target="@10" Category="CodeSchema_Calls" Bounds="433.692319670455,176.894681091309,1.80794957107781,21.0330714585647" />
+    <Link Source="@9" Target="@4" Category="CodeSchema_Calls" Bounds="402.486673525601,176.894681091309,29.2876450213587,76.8302892090329" />
+    <Link Source="@9" Target="@8" Category="CodeSchema_Calls" Bounds="445.563317088506,176.894681091309,94.724618974175,133.14652050734" />
+  </Links>
+  <Categories>
+    <Category Id="CodeSchema_Calls" Label="调用" CanBeDataDriven="True" CanLinkedNodesBeDataDriven="True" IncomingActionLabel="调用者" OutgoingActionLabel="调用" />
+    <Category Id="CodeSchema_Member" Label="编号" CanBeDataDriven="True" DefaultAction="Microsoft.Contains" Icon="CodeSchema_Field" NavigationActionLabel="成员" />
+    <Category Id="CodeSchema_Method" Label="方法" BasedOn="CodeSchema_Member" CanBeDataDriven="True" DefaultAction="Link:Forward:CodeSchema_Calls" Icon="CodeSchema_Method" NavigationActionLabel="方法" />
+  </Categories>
+  <Properties>
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="CanLinkedNodesBeDataDriven" Label="CanLinkedNodesBeDataDriven" Description="CanLinkedNodesBeDataDriven" DataType="System.Boolean" />
+    <Property Id="DefaultAction" Label="DefaultAction" Description="DefaultAction" DataType="System.String" />
+    <Property Id="Description" Label="说明" Description="说明" DataType="System.String" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="Icon" Label="图标" Description="图标" DataType="System.String" />
+    <Property Id="IncomingActionLabel" Label="IncomingActionLabel" Description="IncomingActionLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="Label" Label="标签" Description="可批注对象的可显示标签" DataType="System.String" />
+    <Property Id="Language" Label="语言" Description="语言" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="OutgoingActionLabel" Label="OutgoingActionLabel" Description="OutgoingActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="UseManualLocation" DataType="System.Boolean" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="Visibility" Label="Visibility" Description="Defines whether a node in the graph is visible or not" DataType="System.Windows.Visibility" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <IdentifierAliases>
+    <Alias n="1" Id="(&amp;at;&amp;lt;2814749767131360&amp;at;3639&amp;gt;LED_Thread1)" />
+    <Alias n="2" Id="(&amp;at;&amp;lt;2814749767131360&amp;at;4061&amp;gt;LED_Thread2)" />
+    <Alias n="3" Id="(&amp;at;&amp;lt;2814749767131360&amp;at;4319&amp;gt;LED_Thread3)" />
+    <Alias n="4" Id="(&amp;at;&amp;lt;5629499534494916&amp;at;9328&amp;gt;vPortRaiseBASEPRI)" />
+    <Alias n="5" Id="(HAL_Init)" />
+    <Alias n="6" Id="(main)" />
+    <Alias n="7" Id="(osDelay)" />
+    <Alias n="8" Id="(uxListRemove)" />
+    <Alias n="9" Id="(vTaskDelay)" />
+    <Alias n="10" Id="(xTaskResumeAll)" />
+  </IdentifierAliases>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="ResultNode_DisplayName" ValueLabel="True_DisplayName">
+      <Condition Expression="HasCategory('QueryResult')" />
+      <Setter Property="Background" Value="#FFBCFFBE" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="TestProject_LegendDisplayName" ValueLabel="TestProject_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_TestProject')" />
+      <Setter Property="Icon" Value="CodeMap_TestProject" />
+      <Setter Property="Background" Value="#FF307A69" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WebProject_LegendDisplayName" ValueLabel="WebProject_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_WebProject')" />
+      <Setter Property="Icon" Value="CodeMap_WebProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WindowsStoreProject_LegendDisplayName" ValueLabel="WindowsStoreProject_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_WindowsStoreProject')" />
+      <Setter Property="Icon" Value="CodeMap_WindowsStoreProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="PhoneProject_LegendDisplayName" ValueLabel="PhoneProject_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_PhoneProject')" />
+      <Setter Property="Icon" Value="CodeMap_PhoneProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="PortableLibrary_LegendDisplayName" ValueLabel="PortableLibrary_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_PortableLibraryProject')" />
+      <Setter Property="Icon" Value="CodeMap_PortableLibraryProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="WpfProject_LegendDisplayName" ValueLabel="WpfProject_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_WpfProject')" />
+      <Setter Property="Icon" Value="CodeMap_WpfProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="VsixProject_LegendDisplayName" ValueLabel="VsixProject_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_VsixProject')" />
+      <Setter Property="Icon" Value="CodeMap_VsixProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="ModelingProject_LegendDisplayName" ValueLabel="ModelingProject_LegendDisplayName">
+      <Condition Expression="HasCategory('CodeMap_ModelingProject')" />
+      <Setter Property="Icon" Value="CodeMap_ModelingProject" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Assembly_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Assembly')" />
+      <Setter Property="Background" Value="#FF094167" />
+      <Setter Property="Stroke" Value="#FF094167" />
+      <Setter Property="Icon" Value="CodeSchema_Assembly" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Namespace_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Namespace')" />
+      <Setter Property="Background" Value="#FF0E619A" />
+      <Setter Property="Stroke" Value="#FF0E619A" />
+      <Setter Property="Icon" Value="CodeSchema_Namespace" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Interface_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Interface')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Interface" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Struct_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Struct')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Struct" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enum_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Enum')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Enum" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Delegate_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Delegate')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Delegate" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Class_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Type')" />
+      <Setter Property="Background" Value="#FF1382CE" />
+      <Setter Property="Stroke" Value="#FF1382CE" />
+      <Setter Property="Icon" Value="CodeSchema_Class" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Property_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Property')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Property" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Method_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Method') Or HasCategory('CodeSchema_CallStackUnresolvedMethod')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Method" />
+      <Setter Property="LayoutSettings" Value="List" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Event_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Event')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Event" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Field_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Field')" />
+      <Setter Property="Background" Value="#FFE0E0E0" />
+      <Setter Property="Stroke" Value="#FFE0E0E0" />
+      <Setter Property="Icon" Value="CodeSchema_Field" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="OutParameter_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="CodeSchemaProperty_IsOut = 'True'" />
+      <Setter Property="Icon" Value="CodeSchema_OutParameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Parameter_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_Parameter')" />
+      <Setter Property="Icon" Value="CodeSchema_Parameter" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="LocalVariable_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('CodeSchema_LocalExpression')" />
+      <Setter Property="Icon" Value="CodeSchema_LocalExpression" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Externals_DisplayName" ValueLabel="HasCategory_DisplayName">
+      <Condition Expression="HasCategory('Externals')" />
+      <Setter Property="Background" Value="#FF424242" />
+      <Setter Property="Stroke" Value="#FF424242" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="InheritsFrom_DisplayName" ValueLabel="True">
+      <Condition Expression="HasCategory('InheritsFrom')" />
+      <Setter Property="Stroke" Value="#FF00A600" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements_DisplayName" ValueLabel="True">
+      <Condition Expression="HasCategory('Implements')" />
+      <Setter Property="Stroke" Value="#8000A600" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Calls_DisplayName" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_Calls')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 0" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="FunctionPointer_DisplayName" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FunctionPointer')" />
+      <Setter Property="Stroke" Value="#FFFF00FF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="FieldRead_DisplayName" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldRead')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="FieldWrite_DisplayName" ValueLabel="True">
+      <Condition Expression="HasCategory('CodeSchema_FieldWrite')" />
+      <Setter Property="Stroke" Value="#FF00AEEF" />
+      <Setter Property="DrawArrow" Value="true" />
+      <Setter Property="IsHidden" Value="false" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Inherits From" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('InheritsFrom') And Target.HasCategory('CodeSchema_Class')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Implements" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="HasCategory('Implements') And Target.HasCategory('CodeSchema_Interface')" />
+      <Setter Property="TargetDecorator" Value="OpenArrow" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="Comment Link" ValueLabel="True" Visibility="Hidden">
+      <Condition Expression="Source.HasCategory('Comment')" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Cursor Location Changed" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="IsCursorLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Disabled Breakpoint Location Changed" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="DisabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Enabled Breakpoint Location Changed" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="EnabledBreakpointCount" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Instruction Pointer Location Changed" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="IsInstructionPointerLocation" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Current Callstack Changed" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="IsCurrentCallstackFrame" />
+      <Setter Property="IndicatorWest" Value="WestIndicator" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="CodeSchema_ReturnTypeLink_DisplayName" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_ReturnTypeLink')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="References_DisplayName" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="HasCategory('References')" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="CodeSchema_AttributeUse_DisplayName" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeSchema_AttributeUse')" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="SolutionFolder_DisplayName" ValueLabel="True_DisplayName" Visibility="Hidden">
+      <Condition Expression="HasCategory('CodeMap_SolutionFolder')" />
+      <Setter Property="Background" Value="#FFDEBA83" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="ProjectReference_Label" ValueLabel="ProjectReference_Label">
+      <Condition Expression="HasCategory('CodeMap_ProjectReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+    <Style TargetType="Link" GroupLabel="ExternalReference_Label" ValueLabel="ExternalReference_Label">
+      <Condition Expression="HasCategory('CodeMap_ExternalReference')" />
+      <Setter Property="Stroke" Value="#9A9A9A" />
+      <Setter Property="StrokeDashArray" Value="2 2" />
+      <Setter Property="DrawArrow" Value="true" />
+    </Style>
+  </Styles>
+</DirectedGraph>
